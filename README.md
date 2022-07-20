@@ -12,15 +12,11 @@ O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenh
 
 Faça um fork do projeto para um repositório publico do seu Github.
 
-Nele contém um arquivo docker-compose.yml que criar um ambiente
+Nele contém o arquivo docker-compose.yml que cria no Docker o ambiente necessário para realizar este desafio. Fique a vontade para editar caso necessite.
 
-No repositório contém os arquivos **offshore_nodes_officers.txt, offshore_nodes_entities.txt e offshore_relationships.txt** que deverão ser lido e imputados em uma base de dados relacional.
+Os arquivos **offshore_nodes_officers.txt, offshore_nodes_entities.txt e offshore_relationships.txt** deverão ser lidos do disco e imputados em uma base de dados relacional. Crie um pipeline no Airflow para realizar esta tarefa.
 
-Crie um pipeline para ler estes arquivos do disco e gravar e um banco de dados relacional. 
-
-Os dados tem que 
-
-O pipeline deve conter uma etapa de tratamento para remover acentuação. Pode realizar outros tratamentos se achar necessário.
+O pipeline deve conter uma etapa de tratamento para remover acentuações. Pode realizar outros tratamentos se achar necessário.
 
 ##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 
@@ -28,5 +24,5 @@ O pipeline deve conter uma etapa de tratamento para remover acentuação. Pode r
 
 ### Resultado
 
-Você deve salvar o script em um repositório público e enviar o link para o recrutator.
+Você deve salvar o(s) script(s) no seu repositório público e enviar o link para o recrutator.
 

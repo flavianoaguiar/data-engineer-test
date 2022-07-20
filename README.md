@@ -45,9 +45,9 @@ Considere o dataset abaixo:<br>
 
 **Link para download**: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv)
 
-Crie um pipeline no Airflow para realizar o download e carga do dataset em uma tabela do PostgreSQL.
+Crie um pipeline no Airflow para realizar o download e carga do dataset em uma tabela ( criar tabela ) do PostgreSQL.
 
-O pipeline deve conter as sequintes etapas:
+O pipeline deve conter as awguintes etapas:
 
 * Download do arquivo 
 * Tratamento / higienização - Remoção de acentuação do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.

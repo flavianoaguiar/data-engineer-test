@@ -21,7 +21,7 @@ Edite este documento e descreva um pouco sobre a sua experiência nas tecnologia
 ***
 * Banco de dados relacionais ( qual ? ) -
 ***
-* Banco de dados NoSQl ( qualquer ) -
+* Banco de dados NoSQL ( qualquer ) -
 ***
 * Cloud -
 ***
@@ -54,7 +54,6 @@ O pipeline deve conter as sequintes etapas:
 * Ingestão dos dados no PostgreSQL
 * Validação - Verificar se a quantidade de registros inseridos na tabela é igual a quantidade de linhas do arquivo original.
 
-##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 
 ---
 

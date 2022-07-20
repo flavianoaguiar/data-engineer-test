@@ -15,10 +15,11 @@ Faça um fork do projeto para um repositório publico do seu Github.
 
 Nele contém o arquivo docker-compose.yaml que um ambiente no Docker capaz de realizar este desafio. Fique a vontade para editar caso necessário.
 
-Considere o dataset abaixo:
-Dados Cadastrais das Revendas de Gás Liquefeito de Petróleo (GLP)
+Considere o dataset abaixo:<br>
+<br>
+**Dados Cadastrais das Revendas de Gás Liquefeito de Petróleo (GLP)**
 
-Link para download: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv)
+**Link para download**: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv)
 
 Crie um pipeline no Airflow para realizar a carga do dataset em uma tabela do PostgreSQL.
 
@@ -28,7 +29,7 @@ O pipeline deve conter uma etapa de tratamento para remover acentuações de atr
 
 ---
 
-### Resultado
+### Envie o link do repositório com a solução do problema para o recrutador.
 
-Você deve salvar o(s) script(s) no seu repositório público e enviar o link para o recrutator.
+
 

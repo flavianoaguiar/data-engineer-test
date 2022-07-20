@@ -28,6 +28,8 @@ Edite este documento e descreva um pouco sobre a sua experiência nas tecnologia
 
 ### Desafio técnico
 
+Pré-requisitos: Docker
+
 Faça um fork do projeto para um repositório público do seu Github.
 
 Nele contém o arquivo docker-compose.yaml que cria o ambiente no Docker, necessário para realizar o desafio. Fique a vontade para fazer alterações.
@@ -49,14 +51,14 @@ O pipeline deve conter as sequintes etapas:
 
 * Download do arquivo 
 * Tratamento / higienização - Remoção de acentuação do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
-* Ingestão dos dados
+* Ingestão dos dados no PostgreSQL
 * Validação - Verificar se a quantidade de registros inseridos na tabela é igual a quantidade de linhas do arquivo original.
 
 ##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 
 ---
 
-### Envie o link do repositório com a solução do problema para o recrutador.
+### Save a sua DAG do Airflow no repositório e envie o link para o recrutador
 
 
 

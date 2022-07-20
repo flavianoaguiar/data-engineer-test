@@ -28,7 +28,7 @@ Edite este documento e descreva um pouco sobre a sua experiência nas tecnologia
 
 ### Desafio técnico
 
-Faça um fork do projeto para um repositório publico do seu Github.
+Faça um fork do projeto para um repositório público do seu Github.
 
 Nele contém o arquivo docker-compose.yaml que cria o ambiente no Docker, necessário para realizar o desafio. Fique a vontade para fazer alterações.
 

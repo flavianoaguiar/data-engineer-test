@@ -10,14 +10,19 @@ O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenh
 
 ### Questionário
 
-Descreva um pouco sobre a sua experiência nas tecnologias abaixo:
+Edite este documento e descreva um pouco sobre a sua experiência nas tecnologias abaixo:
 
-Python
-Spark
-Airflow
-Banco de dados relacionais ( qual ? )
-Banco de dados NoSQl ( qualquer )
-Cloud
+*Python -
+<br>
+*Spark -
+<br>
+*Airflow -
+<br>
+*Banco de dados relacionais ( qual ? ) -
+<br>
+*Banco de dados NoSQl ( qualquer ) -
+<br>
+*Cloud -
 
 ### Desafio
 

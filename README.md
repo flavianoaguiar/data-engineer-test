@@ -30,7 +30,7 @@ Edite este documento e descreva um pouco sobre a sua experiência nas tecnologia
 
 Faça um fork do projeto para um repositório publico do seu Github.
 
-Nele contém o arquivo docker-compose.yaml que cria ambiente no Docker para realizar o desafio. Fique a vontade para editar caso necessário.
+Nele contém o arquivo docker-compose.yaml que cria o ambiente no Docker, necessário para realizar o desafio. Fique a vontade para fazer alterações.
 
 Use o comando abaixo na pasta do projeto para subir o ambiente:
 ```console
@@ -43,9 +43,14 @@ Considere o dataset abaixo:<br>
 
 **Link para download**: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv)
 
-Crie um pipeline no Airflow para realizar a carga do dataset em uma tabela do PostgreSQL.
+Crie um pipeline no Airflow para realizar o download e carga do dataset em uma tabela do PostgreSQL.
 
-O pipeline deve conter uma etapa de tratamento para remover acentuações do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
+O pipeline deve conter as sequintes etapas:
+
+* Download do arquivo 
+* Tratamento / higienização - Remoção de acentuação do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
+* Ingestão dos dados
+* Validação - Verificar se a quantidade de registros inseridos na tabela é igual a quantidade de linhas do arquivo original.
 
 ##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 

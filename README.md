@@ -1,11 +1,11 @@
 ![Datahub](logo_dh.png)
 
-## Teste de avaliação para seleção de desenvolvedores Python jr-Web Scraping e Crawlers
+## Teste de avaliação para seleção de Engenheiro de Dados 
 
 ### Introdução
 
 Este é um teste prático para avaliar conhecimentos do candidato durante seu processo 
-seletivo para a vaga de Engenheiro de Dados. Antes de iniciar, esteja num ambiente tranquilo e confortável, pense no problema e na melhor forma de resolvê-lo.
+seletivo para a vaga de Engenheiro de Dados. Antes de iniciar, esteja em um ambiente tranquilo e confortável, pense no problema e na melhor forma de resolvê-lo.
 O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenharia de dados, por isso não vamos estabelecer nenhum tipo de restrição sobre padrões de projeto, organização de código e boas práticas. Realize o teste usando técnicas que você já conhece e tem segurança. Podemos lhe questionar sobre a sua solução durante a entrevista.
 
 ### Desafio
@@ -13,7 +13,12 @@ O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenh
 
 Faça um fork do projeto para um repositório publico do seu Github.
 
-Nele contém o arquivo docker-compose.yaml que um ambiente no Docker capaz de realizar este desafio. Fique a vontade para editar caso necessário.
+Nele contém o arquivo docker-compose.yaml que cria ambiente no Docker para realizar o desafio. Fique a vontade para editar caso necessário.
+
+Use o comando abaixo na pasta do projeto para subir o ambiente:
+```console
+~$ docker compose up .
+```
 
 Considere o dataset abaixo:<br>
 <br>

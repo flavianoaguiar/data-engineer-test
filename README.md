@@ -47,7 +47,7 @@ Considere o dataset abaixo:<br>
 
 Crie um pipeline no Airflow para realizar o download e carga do dataset em uma tabela ( criar tabela ) do PostgreSQL.
 
-O pipeline deve conter as awguintes etapas:
+O pipeline deve conter as seguintes etapas:
 
 * Download do arquivo 
 * Tratamento / higienização - Remoção de acentuação do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.

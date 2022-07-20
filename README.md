@@ -8,8 +8,18 @@ Este é um teste prático para avaliar conhecimentos do candidato durante seu pr
 seletivo para a vaga de Engenheiro de Dados. Antes de iniciar, esteja em um ambiente tranquilo e confortável, pense no problema e na melhor forma de resolvê-lo.
 O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenharia de dados, por isso não vamos estabelecer nenhum tipo de restrição sobre padrões de projeto, organização de código e boas práticas. Realize o teste usando técnicas que você já conhece e tem segurança. Podemos lhe questionar sobre a sua solução durante a entrevista.
 
-### Desafio
+### Questionário
 
+Descreva um pouco sobre a sua experiência nas tecnologias abaixo:
+
+Python
+Spark
+Airflow
+Banco de dados relacionais ( qual ? )
+Banco de dados NoSQl ( qualquer )
+Cloud
+
+### Desafio
 
 Faça um fork do projeto para um repositório publico do seu Github.
 
@@ -28,7 +38,7 @@ Considere o dataset abaixo:<br>
 
 Crie um pipeline no Airflow para realizar a carga do dataset em uma tabela do PostgreSQL.
 
-O pipeline deve conter uma etapa de tratamento para remover acentuações de atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
+O pipeline deve conter uma etapa de tratamento para remover acentuações do atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
 
 ##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 

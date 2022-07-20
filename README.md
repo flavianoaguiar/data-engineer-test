@@ -10,13 +10,19 @@ O nosso objetivo com este desafio é medir o seu conhecimento técnico de engenh
 
 ### Desafio
 
+
 Faça um fork do projeto para um repositório publico do seu Github.
 
-Nele contém o arquivo docker-compose.yml que cria no Docker o ambiente necessário para realizar este desafio. Fique a vontade para editar caso necessite.
+Nele contém o arquivo docker-compose.yaml que um ambiente no Docker capaz de realizar este desafio. Fique a vontade para editar caso necessário.
 
-Os arquivos **offshore_nodes_officers.txt, offshore_nodes_entities.txt e offshore_relationships.txt** deverão ser lidos do disco e imputados em uma base de dados relacional. Crie um pipeline no Airflow para realizar esta tarefa.
+Considere o dataset abaixo:
+Dados Cadastrais das Revendas de Gás Liquefeito de Petróleo (GLP)
 
-O pipeline deve conter uma etapa de tratamento para remover acentuações. Pode realizar outros tratamentos se achar necessário.
+Link para download: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-das-revendas-de-gas-liquefeito-de-petroleo-glp/cadastro-revendas-glp-1.csv)
+
+Crie um pipeline no Airflow para realizar a carga do dataset em uma tabela do PostgreSQL.
+
+O pipeline deve conter uma etapa de tratamento para remover acentuações de atributo **RAZAOSOCIAL**. Pode realizar outros tratamentos se achar necessário.
 
 ##### Não há um prazo pré-estabelecido para a conclusão deste teste, porém o prazo utilizado será considerado para desempate
 

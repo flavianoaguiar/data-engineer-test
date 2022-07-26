@@ -41,7 +41,7 @@ Use o comando abaixo na pasta do projeto para subir o ambiente:
 
 Considere o dataset abaixo:<br>
 <br>
-**Dados Cadastrais das Revendas de Gás Liquefeito de Petróleo (GLP)**
+**Dados Cadastrais dos Revendedores Varejistas de Combustíveis Automotivos**
 
 **Link para download**: [https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos/dados-cadastrais-revendedores-varejistas-combustiveis-automoveis-1.csv](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos/dados-cadastrais-revendedores-varejistas-combustiveis-automoveis-1.csv)
 
